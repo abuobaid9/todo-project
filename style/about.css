@@ -1,0 +1,30 @@
+
+        body#b {
+            color: #E3DCDA;
+background-color: black;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.center{
+    margin: 50px;
+    text-align: center;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #B1AEAD;
+  color: white;
+}
+nav{
+  padding-top: 10px;
+  margin-left: 74%;
+}
+   img{
+     margin-left: auto;
+     margin-right: auto;
+     display: block;
+     width: 50%;
+     height: 50%;
+   }
