@@ -13,5 +13,5 @@ var welcomeMassges =confirm("If You Want To Skip The Welcoming Massge Press (Ok)
 
 if(welcomeMassges==false){
 (userGender =="m" )?alert ("Wlecome Mr : " + userName):
-(userGender== "f")? alert("Welcome Ms"+ userName) :
+(userGender== "f")? alert("Welcome Ms" + userName) :
  alert("Welcome To Our Page" + userName);}
