@@ -1,3 +1,12 @@
+body#a {
+    color: black;
+    padding: 0px;
+    background-color: white;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100%;
+}
 
 table#site {
 margin-left: auto;
@@ -6,26 +15,22 @@ margin-top: 7%;
 margin-bottom:50px;
 }
 table {
-    border:1px solid white;
+    border:1px solid black;
 text-align: center;
-color: white;
+color: black;
 
 }
 h1{
-    color: white;
+    color: black;
 }
 th, td{
-    border:1px solid white;
+    border:1px solid black;
 text-align: center;
-color: white;
+color: black;
 padding: 45px;
 
 }
-body#a {
-    color: #E3DCDA;
-background-color: black;
 
-}
 .center{
 margin: 50px;
 text-align: center;
@@ -37,13 +42,25 @@ img{
 }
 footer {
     text-align: center;
-    padding: 3px;
-    color: white;
+    padding: 25px;
+    background-color: #B1AEAD;
+    color: black;
   }
-  #fm{
-      margin-right: 70%;
-  }
+ 
   nav{
-    padding-top: 10px;
-    margin-left: 74%;
+    background-color: #B1AEAD;
+    padding: 25px;
+    text-align: center;
+    color: black;
   }
+  #navs a{
+    padding: 50px;
+    font-size: larger;
+       }
+       #imgs{
+        position: absolute;
+        left: 16px;
+        top: 50px;
+        width: 76px;
+        height: 66px;
+       }

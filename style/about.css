@@ -1,7 +1,7 @@
 
         body#b {
-            color: #E3DCDA;
-background-color: black;
+            color: black;
+background-color: white;
 	background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -13,18 +13,43 @@ background-color: black;
 }
 footer {
   text-align: center;
-  padding: 3px;
+  padding: 25px;
   background-color: #B1AEAD;
-  color: white;
+  color: black;
 }
 nav{
-  padding-top: 10px;
-  margin-left: 74%;
+  background-color: #B1AEAD;
+  padding: 25px;
+  text-align: center;
+  color: black;
 }
    img{
-     margin-left: auto;
-     margin-right: auto;
-     display: block;
-     width: 50%;
-     height: 50%;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
    }
+   #navs a{
+     padding: 50px;
+     font-size: larger;
+        }
+   #imgs{
+    position: absolute;
+    left: 16px;
+    top: 25px;
+    width: 56px;
+    height: 46px;
+   }
+   .intro{
+     border: black;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    padding-right: 80px;
+   }
+   .intro p{
+   padding: 25px;
+    border-style: solid;
+   }
+   
